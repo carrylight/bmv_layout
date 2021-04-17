@@ -1,0 +1,22 @@
+{
+  "name": "bmv",
+  "version": "1.0.0",
+  "description": "static content site",
+  "author": "Andrey Vinkovatov",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "latest",
+    "@nuxtjs/axios": "latest",
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
